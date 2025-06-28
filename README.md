@@ -3,9 +3,15 @@ OBS: Fiz o teste mas depois que eu vi que o Angular da minha maquina é o 19
 Client: Aplicação Angular (frontend)
 Server: API .NET Core (backend)
 
-Execute:
+Front-end
 cd Server
+dotnet restore
 dotnet run
-Depois:
+Back-end
 cd Client
+npm install
 ng serve
+
+**Frontend:** Angular 19, TypeScript, HTML5, CSS3
+**Backend:** C#, .NET (versão que usou, ex: .NET 8), ASP.NET Core
+**Ferramentas:** Node.js, npm, Visual Studio, Swagger UI
