@@ -9,6 +9,6 @@ Server: API .NET Core (backend)
 Execute:
 cd Server
 dotnet run
------
+Depois:
 cd Client
 ng serve
