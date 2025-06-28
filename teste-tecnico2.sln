@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "teste-tecnico2.client", "teste-tecnico2.client\teste-tecnico2.client.esproj", "{67F4B6AB-FC9A-B833-D68D-1DDC849CB3F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "teste-tecnico2.Server", "teste-tecnico2.Server\teste-tecnico2.Server.csproj", "{6EA121F8-DC30-4711-832A-E8C71B8117FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67F4B6AB-FC9A-B833-D68D-1DDC849CB3F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67F4B6AB-FC9A-B833-D68D-1DDC849CB3F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67F4B6AB-FC9A-B833-D68D-1DDC849CB3F0}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{67F4B6AB-FC9A-B833-D68D-1DDC849CB3F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67F4B6AB-FC9A-B833-D68D-1DDC849CB3F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67F4B6AB-FC9A-B833-D68D-1DDC849CB3F0}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{6EA121F8-DC30-4711-832A-E8C71B8117FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EA121F8-DC30-4711-832A-E8C71B8117FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EA121F8-DC30-4711-832A-E8C71B8117FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EA121F8-DC30-4711-832A-E8C71B8117FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9B9B5429-05BA-4A80-B385-A952263E3667}
+	EndGlobalSection
+EndGlobal
