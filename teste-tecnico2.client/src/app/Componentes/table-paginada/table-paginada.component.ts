@@ -40,16 +40,14 @@ export class TablePaginadaComponent implements OnInit {
   }
 
   carregarPessoas() {
-    try
-    {
-      this.pessoaService.getPessoas().subscribe(data => {
+    this.pessoaService.getPessoas().subscribe({
+      next: (data) => {
         this.dataSource = new MatTableDataSource(data);
         this.dataSource.paginator = this.paginator;
-      });
-    }
-    catch (Exception) {
-      console.log(Exception);
-    }
+      }, error: (erro) => {
+        console.log(erro);
+      }
+    });
   }
 
   filtrarPorNome(event: Event) {
