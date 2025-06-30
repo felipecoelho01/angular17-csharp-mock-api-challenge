@@ -10,7 +10,7 @@
 
       <ng-container matColumnDef="cpf">
         <th mat-header-cell *matHeaderCellDef mat-sort-header> Cpf </th>
-        <td mat-cell *matCellDef="let row"> {{formatCpf(row.cpf)}} </td>
+        <td mat-cell *matCellDef="let row"> {{ row.cpf | cpfFormat}} </td>
       </ng-container>
 
       <ng-container matColumnDef="nome">

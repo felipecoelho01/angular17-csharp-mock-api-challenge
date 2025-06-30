@@ -7,13 +7,14 @@ import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { Pessoas } from '../../Interfaces/Pessoas';
 import { filter } from 'rxjs';
+import { CpfFormatPipe } from '../../Core/cpf-format.pipe';
 
 @Component({
   selector: 'app-table-paginada',
   standalone: true,
   templateUrl: './table-paginada.component.html',
   styleUrls: ['./table-paginada.component.css'],
-  imports: [MatFormFieldModule, MatInputModule, MatTableModule, MatSortModule, MatPaginatorModule],
+  imports: [MatFormFieldModule, MatInputModule, MatTableModule, MatSortModule, MatPaginatorModule, CpfFormatPipe],
 })
 export class TablePaginadaComponent implements OnInit {
   dataSource = new MatTableDataSource<Pessoas>;

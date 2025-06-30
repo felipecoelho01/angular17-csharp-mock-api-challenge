@@ -7,7 +7,8 @@ import { AppComponent } from './app.component';
 import { TablePaginadaComponent } from './Componentes/table-paginada/table-paginada.component';
 
 @NgModule({
-  declarations: [ ],
+  declarations: [
+  ],
   imports: [
     BrowserModule, HttpClientModule,
     AppRoutingModule

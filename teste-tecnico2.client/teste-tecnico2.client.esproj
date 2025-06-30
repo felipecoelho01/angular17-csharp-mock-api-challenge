@@ -10,5 +10,6 @@
   <ItemGroup>
     <Folder Include="src\app\Componentes\" />
     <Folder Include="src\app\Interfaces\" />
+    <Folder Include="src\app\Core\" />
   </ItemGroup>
 </Project>
